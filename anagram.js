@@ -5,8 +5,8 @@ var anagram = function(a, b){
     }
 
     //Sorting huruf dalam kata menurut abjad
-    let SortingA = a.toLowerCase().split('').sort().join('');
-    let SortingB = b.toLowerCase().split('').sort().join('');
+    let SortingA = a.toLowerCase().split('').sort().join(''); 
+    let SortingB = b.toLowerCase().split('').sort().join(''); 
 
     //membandingkan setiap huruf yang disorting
     if(SortingA === SortingB){
