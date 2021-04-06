@@ -1,5 +1,5 @@
 var anagram = function(a, b){
-    //pengecekan apabila anagram tidak memiliki jumalah karakter yang sama
+    //sebagai security jika ada kata yang panjangnya tidak sama
     if(a.length != b.length){
         return false;
     }
